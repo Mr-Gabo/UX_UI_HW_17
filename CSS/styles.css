@@ -3,7 +3,7 @@
     display: inline-block;
     vertical-align: top;   
    }
-   
+    
    .logo{
        width: 23%;
        padding: 1%;
@@ -30,6 +30,13 @@
        margin: 0 auto;
    }
 
+   .skillsTools {
+    background-image: url(./images/skills&tools.png);
+   }
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
    footer{
        background-color: #373738;
        padding: center;
@@ -39,4 +46,8 @@
        display: inline-block;
        vertical-align: top;
        padding: center;
+   }
+
+   @media only screen and (max-width:600) {
+    
    }
