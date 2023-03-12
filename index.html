@@ -6,37 +6,22 @@
         <title></title>
     </head>
     <body>
-        <style>
-        body {
-            background-image: url('./images/backgroundtexture.jpeg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-          }
-        
-          .container {
-            width: 100vw;
-            height: 100vh;
-            display: grid;
-          }
-          </style>
-       <header>
-            <div class="container inline-block logo">
-                <img src="./images/Logo.png" alt="Logo" width="185px" height="129px">
-            
-            </div>
-            <nav class="inline-block">
-                <ul>
-                    <li class="inline-block">
+
+       <header class="flex-container">
+            <img src="./images/Logo.png" alt="Logo" width="185px" height="129px">
+             
+            <nav>
+                <ul class="flex-container">
+                    <li>
                         <img src="./images/About.png" alt="About me" width="185px" height="129px">
                     </li>
-                    <li class="inline-block">
+                    <li>
                         <img src="./images/My work.png" alt="My Work" width="185px" height="129px">
                     </li>
-                    <li class="inline-block">
+                    <li>
                         <img src="./images/resume.png" alt="Resume" width="185px" height="129px">
                     </li>
-                    <li class="inline-block">
+                    <li>
                         <img src="./images/Contact.png" alt="Contact Me" width="185px" height="129px">
                     </li>
                 </ul>
@@ -44,17 +29,16 @@
        </header>
     
 <section class="heroImg">
-    <div class="content">
-        <img src="./images/placeholder hero image.png" alt="heroimage" width="635px" height="789px">
-        <p>Curious and creative user experience designer with a background in graphic design and art. As a recent graduate of University of Minnesota's UX/UI Certificate program, I am seeking a role where I can leverage my strengths as an innovator, a design thinker and contribute to projects and teams with creative approaches to real world design challenges.</p>
-
+    <div class="flex-container">
+        <img src="./images/placeholder hero image.png" alt="heroimage" width="50%" height="auto">
+        <img src="./images/hero text image.png" alt="herotext" width="50%" height="auto">
     </div>
-    
+    <p>Curious and creative user experience designer with a background in graphic design and art. As a recent graduate of University of Minnesota's UX/UI Certificate program, I am seeking a role where I can leverage my strengths as an innovator, a design thinker and contribute to projects and teams with creative approaches to real world design challenges.</p>
 </section>
 
 <section>
 
-  <div class="flex-container grid-container">
+  <div class="grid-container">
     <div class="skillsTools">
         <h1>Skills</h1>
         <h2>UX Research</h2>
@@ -87,10 +71,10 @@
 
 <section>
 <footer>
-        <ul>
-            <li class="inline-block">Behance</li>
-            <li class="inline-block">gabodesign@gmail.com</li>
-            <li class="inline-block">LinkedIn</li>
+        <ul class="flex-container">
+            <li>Behance</li>
+            <li>gabodesign@gmail.com</li>
+            <li>LinkedIn</li>
         </ul>
     </footer>
 </section>
